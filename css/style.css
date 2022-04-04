@@ -59,10 +59,10 @@
     color: white;
 }
 .up{
-    top: -20px;
+    top: -30px;
 }
 .down{
-    bottom: -20px;
+    bottom: -30px;
 }
 #slider .fa-circle-chevron-down,
 #slider .fa-circle-chevron-up{

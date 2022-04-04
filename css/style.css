@@ -31,7 +31,6 @@
     right: 0;
     text-align: right;
     padding: 10px;
-    font-size: 2em;
 }
 .item{
     display: none;
@@ -42,9 +41,11 @@
 }
 .thumb{
     height: 20%;
+    opacity: 0.5;
 }
 .thumb.active{
     border: 3px solid white;
+    opacity: 1;
 }
 .item img, .thumb img{
     height: 100%;
@@ -59,10 +60,14 @@
     color: white;
 }
 .up{
-    top: -30px;
+    top: 10px;
 }
 .down{
-    bottom: -30px;
+    bottom: 10px;
+}
+.arrow{
+    font-size: 1.5em;
+    color: gray;
 }
 #slider .fa-circle-chevron-down,
 #slider .fa-circle-chevron-up{
